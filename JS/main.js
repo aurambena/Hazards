@@ -132,7 +132,7 @@ for(let c of images){
                         secondsLabel = secondsLabel.innerHTML
                         console.log(minutesLabel,secondsLabel);
                         
-                        youWon.textContent = `Ganaste!!, Tu tiempo fue: ${minutesLabel}:${secondsLabel} `;
+                        // youWon.textContent = `Ganaste!!, Tu tiempo fue: ${minutesLabel}:${secondsLabel} `;
                         youWon.style.fontSize = '50px';
                         youWon.style.color = 'red';
                         youWon.style.marginLeft = '50px';

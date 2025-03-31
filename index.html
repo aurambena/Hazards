@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The color match game</title>
+  <style>
+    body{
+      background-color: #DFEAFF;
+      font-size: 'opensans';
+      font-size: 20px;
+    }
+    #firstMain{
+      display: grid;
+      grid-template-columns: 1500px;
+      margin: 25px;
+
+    }
+    #container{
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px 200px 200px;
+      grid-template-rows: 200px 200px;
+      gap: 10px;
+    }
+    #clock{
+      font-size: 100px;
+      margin-top: 20px;
+      }
+
+    #instrucciones{
+      background-color: #2d6df6;
+      color: #FFFFFF;
+      border-radius: 15px;
+      padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <section id="instrucciones">
+    <h1>Aprendamos de riesgos</h1>
+    <p>Revisa y analiza cada imagen que representa un mecanismo de accidente y empareja
+      con su respectiva descripción.
+    </p> 
+    <h2>Instrucciones</h2>
+    <p>
+      Cuando hagas click sobre una caja se revelará la imagen que puede ser un mecanismo de accidente o su 
+      descripción. En ese momento, debes arrastrar la caja al lugar donde crees que se pueda encontar la 
+      pareja. Si las imágenes están relacionadas, las dos quedarán abiertas, de lo contrario, las dos volverán
+      a ocultarse. Al final, puedes ver cuánto tiempo tardaste en completar el juego.
+    </p>
+  </section>
+    
+<main id="firstMain">
+  <section id="container">
+    
+
+  </section>
+
+  <section id="clock">
+    <label id="minutes">00</label>
+    <label id="colon">:</label>
+    <label id="seconds">00</label>
+  </section>
+
+  </main>
+  <script src="./JS/main.js"></script>
+  </body>
+
+</html>
